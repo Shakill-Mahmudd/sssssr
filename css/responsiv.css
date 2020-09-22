@@ -1,0 +1,82 @@
+/* normal desktop :992px. */
+@media (min-width: 992px) and (max-width:1200px) {}
+
+/* tablet desktop :768px. */
+@media (min-width:768px) and (max-width:991px) {
+
+    .slider-content {
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .single-img {
+        height: inherit;
+    }
+
+    .main-img img {
+        margin-top: 30px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width:767px) {
+    #scrollUp {
+        width: 30px;
+        height: 30px;
+    }
+
+    #scrollUp i {
+        line-height: 30px;
+    }
+
+    .main-menu {
+        background: #ccc;
+        text-align: center;
+    }
+
+    nav .main-menu ul li.nav-item a.nav-link {
+        margin: 0;
+    }
+
+    .slider-content {
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .single-img {
+        height: inherit;
+    }
+
+    .main-img img {
+        margin-top: 30px;
+    }
+
+    .social-pad {
+        padding: 0;
+    }
+
+    .blog-img img {
+        float: inherit;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .mobile-res {
+        margin: 30px;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form textarea {
+        width: 100%;
+    }
+
+    .address-wrapper {
+        margin: 20px;
+    }
+}
+
+/* larg mobile :480px. */
+@media (min-width: 480px) and (max-width:767) {}
